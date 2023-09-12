@@ -1,5 +1,5 @@
 const weatherDataInfo = document.querySelector('.weather-data');
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'bd5e378503939ddaee76f12ad7a97608';
 function fetchWeather(city) {
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`; // Units set to metric for Celsius
   fetch(apiUrl)
